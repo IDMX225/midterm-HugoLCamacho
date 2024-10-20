@@ -1,5 +1,7 @@
 # IDMX 225 Midterm
 
+Hugo Camacho Midterm
+
 Put your CSS in:
 
 > css/style.css
