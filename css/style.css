@@ -4,11 +4,82 @@
 
 background-color: 
 #F0CA53;
-color: #9E271E
-
-;
+color: #9E271E;
 }
 
+
+/* Header & Hero */
+h1{
+
+text-align: center;    
+}
+
+/* Projects */
+ h2 {text-align: center;
+    padding: 10px;
+    color: #81F0CB;
+font-size: 32pt;
+background-color:#5727F2; } 
+#projects{
+
+    background-color:#81F0CB; 
+    
+    border: solid #F095A5 5px;
+    
+   
+    
+
+}
+
+.description{
+    
+    background-color:#81F0CB ;
+
+   
+}
+
+.project{
+
+    display:grid;
+    background-color:#81F0CB ;
+    border:solid #F095A5 4px;
+    padding: 20px;
+    margin: 2%;
+
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+   
+ 
+
+    
+}
+
+.project h3{
+
+ 
+    background-color:#81F0CB ;
+
+    font-size: 16pt;
+    
+   
+
+}
+
+.project img {
+
+
+    background-color:#81F0CB ;
+    padding: 2%;
+    width: 95%;
+    
+    
+    }
+
+    .project h2 {text-align: center;}
+
+/* Reviews */
+
+/* Footer */
 footer {
 
     background-color: #5727F2 ;
@@ -20,20 +91,6 @@ footer {
     border: double 10px;
 }
 
-/* Header & Hero */
-
-/* Projects */
-
-#projects img {
-
-    width: 25%;
-    
-    
-    }
-
-/* Reviews */
-
-/* Footer */
 
 
 /* Media state for Desktop site */
@@ -44,11 +101,45 @@ footer {
     /* Header & Hero */
 
     /* Projects */
+
+    h2{
+        margin-right: 40%;
+        margin-left: 40%;
+    }
     
 #projects img {
 
-width: 600px;
+width: 70%;
 
+
+}
+
+#projects
+{
+
+  display:grid;
+    background-color:#81F0CB ;
+    border:solid #F095A5 4px;
+    padding: 20px;
+    margin: 2%;
+
+    align-items: center;
+    columns: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+ 
+
+    
+}
+
+.project h3{
+
+ 
+    background-color:#81F0CB ;
+
+    font-size: 90%;
+    
+   
 
 }
   
