@@ -1,12 +1,10 @@
 /* Styles for Mobile Site */
-
 * {
 
-background-color: 
-#F0CA53;
-color: #9E271E;
-}
-
+    background-color: #F0CA53 ;
+    
+    color: #9E271E;
+    }
 
 /* Header & Hero */
 
@@ -28,23 +26,17 @@ text-align: center;
     color: #81F0CB;
 font-size: 32pt;
 background-color:#5727F2; } 
-#projects{
+#projects *{
 
     background-color:#81F0CB; 
     
-    border: solid #F095A5 5px;
+    font-size: 110%;
     
    
     
 
 }
 
-.description{
-    
-    background-color:#81F0CB ;
-
-   
-}
 
 .project{
 
@@ -65,9 +57,9 @@ background-color:#5727F2; }
 .project h3{
 
  
-    background-color:#81F0CB ;
 
-    font-size: 16pt;
+
+    font-size: 32pt;
     
    
 
@@ -76,7 +68,6 @@ background-color:#5727F2; }
 .project img {
 
 
-    background-color:#81F0CB ;
     padding: 2%;
     width: 95%;
     
@@ -87,19 +78,66 @@ background-color:#5727F2; }
 
 /* Reviews */
 
+#reviews *  {
+
+    background-color:#81F0CB; 
+ margin-block: 60px;
+    
+}
+
+
+.review{
+
+    border: solid #F095A5 5px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.name{
+text-align: center;
+font-size: 42pt;
+text-decoration: underline;
+
+}
+
+.title{
+
+    font-size: 32pt;
+    text-align: center;
+}
+
+.rating{
+
+
+text-align: right;
+font-size: 15pt;
+
+
+
+}
+
+.content{
+
+    font-size: 32pt;
+   line-height: 40px;
+}
 /* Footer */
+
 footer {
 
     background-color: #5727F2 ;
     color: #F095A5;
     text-align: center;
-    padding: 3rem;
-    margin: 2rem;
-    font-size: 24pt;
-    border: double 10px;
+    padding: 1rem;
+    margin: .5rem;
+    font-size: 12pt;
+    border: double 2px;
 }
 
 
+
+    
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
@@ -154,8 +192,38 @@ width: 70%;
 
     /* Reviews */
 
+    #reviews
+{
+
+  display:grid;
+    background-color:#81F0CB ;
+    border:solid #F095A5 4px;
+    padding: 20px;
+    margin: 2%;
+
+    align-items: center;
+    columns: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+ 
+
+    
+}
+
     /* Footer */
+    footer {
+
+        background-color: #5727F2 ;
+        color: #F095A5;
+        text-align: center;
+        padding: 3rem;
+        margin: 2rem;
+        font-size: 24pt;
+        border: double 10px;
+    }
 
 
 
 }
+
+
