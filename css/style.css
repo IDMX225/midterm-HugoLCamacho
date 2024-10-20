@@ -9,6 +9,14 @@ color: #9E271E;
 
 
 /* Header & Hero */
+
+#hero {text-align: center;}
+
+#hero img{
+    text-align: center;
+ width: 400px;
+ border-radius: 50%;
+}
 h1{
 
 text-align: center;    
