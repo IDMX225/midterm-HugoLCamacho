@@ -1,8 +1,35 @@
 /* Styles for Mobile Site */
 
+* {
+
+background-color: 
+#F0CA53;
+color: #9E271E
+
+;
+}
+
+footer {
+
+    background-color: #5727F2 ;
+    color: #F095A5;
+    text-align: center;
+    padding: 3rem;
+    margin: 2rem;
+    font-size: 24pt;
+    border: double 10px;
+}
+
 /* Header & Hero */
 
 /* Projects */
+
+#projects img {
+
+    width: 25%;
+    
+    
+    }
 
 /* Reviews */
 
@@ -22,11 +49,14 @@
 
 width: 600px;
 
+
 }
   
 
     /* Reviews */
 
     /* Footer */
+
+
 
 }
